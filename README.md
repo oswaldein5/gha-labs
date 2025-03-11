@@ -1,1 +1,1 @@
-# gha-demos
+# GitHub Actions Labs
