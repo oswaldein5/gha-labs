@@ -1,5 +1,4 @@
 # Practice-02
-
 name: pr-02 Hello Oswaldo
 on:
   workflow_dispatch:

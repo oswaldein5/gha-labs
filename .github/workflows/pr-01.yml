@@ -1,5 +1,4 @@
 # Practice-01
-
 name: pr-01 Hello world
 on:
   workflow_dispatch:
