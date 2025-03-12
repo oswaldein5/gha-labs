@@ -1,0 +1,19 @@
+# Practice-03 - Evento issue
+
+name: pr-03 Issue
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**/*.md'
+  issues:
+    types: [opened, edited, deleted]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world
+        run: echo "¡Hello world!"
