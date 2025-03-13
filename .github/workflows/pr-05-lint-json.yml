@@ -1,0 +1,17 @@
+# Practice-05 - validate-runners
+name: pr-05 Validate Runners
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Check node version
+        run: node --version
+      - name: Install jsonlint 
+        run: sudo apt-get install jsonlint
+      - name: Lint JSON files
+        run: jsonlint --quiet --compact --validate ./**/*.json
