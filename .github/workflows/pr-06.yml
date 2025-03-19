@@ -1,0 +1,15 @@
+# Practice-06 - Runner Context
+name: Context
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Information about the runner (os)
+        run: |
+          echo "Runner OS: ${{ runner.os }}"
+      - name: Information about the runner (architecture)
+        run: |
+          echo "Runner architecture: ${{ runner.arch }}"
