@@ -1,9 +1,11 @@
 # Practice-06 - Runner Context
 name: Context
-on: push
+on: 
+  push:
+    branches: ["main"]
 
 jobs:
-  build:
+  runner-context:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

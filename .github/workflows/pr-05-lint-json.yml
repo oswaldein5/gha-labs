@@ -4,7 +4,7 @@ name: pr-05 Validate Runners
 on: push
 
 jobs:
-  build:
+  validate-runner:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
