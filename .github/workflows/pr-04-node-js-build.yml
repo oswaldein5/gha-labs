@@ -1,5 +1,5 @@
 # Practice-04 - nodejs-build
-name: pr-04 Node.js Build
+name: PR-04 - Node.js Build
 
 on:
   push:

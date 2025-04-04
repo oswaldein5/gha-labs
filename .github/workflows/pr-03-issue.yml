@@ -1,5 +1,5 @@
 # Practice-03 - Evento issue
-name: pr-03 Issue
+name: PR-03 - Issue
 
 on:
   push:

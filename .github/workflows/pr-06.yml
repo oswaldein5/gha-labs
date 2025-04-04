@@ -1,5 +1,5 @@
 # Practice-06 - Runner Context
-name: Context
+name: PR-06 - Context
 on: 
   push:
     branches: ["main"]

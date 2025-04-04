@@ -1,5 +1,5 @@
 # Practice-01
-name: pr-01 Hello world
+name: PR-01 - Hello world
 on:
   workflow_dispatch:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
